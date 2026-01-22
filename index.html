@@ -1,180 +1,258 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hasan Ajweh | Portfolio</title>
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hasan Ajweh — Full-Stack & Platform Operations Engineer</title>
+  <meta name="description" content="Hasan Ajweh — Full-Stack & Platform Operations Engineer. Laravel, multi-tenant SaaS, IPTV platforms, DevOps. Remote-friendly." />
+  <meta name="author" content="Hasan Ajweh" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta property="og:title" content="Hasan Ajweh — Full-Stack & Platform Operations Engineer">
+  <meta property="og:description" content="Full-Stack & Platform Operations Engineer. Laravel, multi-tenant SaaS, IPTV platforms, DevOps. Remote-friendly.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hasanajweh.github.io/">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Hasan Ajweh",
+    "jobTitle":"Full-Stack & Platform Operations Engineer",
+    "url":"https://hasanajweh.github.io",
+    "email":"mailto:hassan.ajweh99@gmail.com",
+    "sameAs":[
+      "https://github.com/hasanajweh",
+      "https://linkedin.com/in/hasanajweh"
+    ],
+    "address":{
+      "@type":"PostalAddress",
+      "addressLocality":"Hebron",
+      "addressCountry":"Palestine"
+    }
+  }
+  </script>
 </head>
-<body id="top">
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <!-- Preloader -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <!-- Replace with your professional headshot at images/headshot.jpg -->
+        <img src="images/headshot.jpg" alt="Hasan Ajweh headshot" class="headshot" width="120" height="120">
+        <div>
+          <h1 class="name">Hasan Ajweh</h1>
+          <p class="role">Full-Stack & Platform Operations Engineer <span class="badge">Available for Remote / Contract Work</span></p>
+          <p class="meta">Hebron, Palestine · Remote-friendly</p>
         </div>
+      </div>
+
+      <nav class="header-actions" aria-label="Primary actions">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-outline" id="downloadCvBtn" href="#" title="Download CV (PDF)">Download CV</a>
+        <a class="btn" href="#contact">Contact Me</a>
+      </nav>
     </div>
+  </header>
 
-    <!-- Page Wrap -->
-    <div id="page" class="s-pagewrap">
+  <main id="main" class="container main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <h2 id="hero-heading" class="sr-only">Profile summary</h2>
+      <p class="lead">
+        Full-Stack & Platform Operations Engineer with strong experience in Laravel 12+, multi-tenant SaaS systems, system administration, and streaming/IPTV platforms. I build, deploy, and maintain production-grade applications end-to-end — from backend and mobile apps to servers, deployments, and real-world operations.
+      </p>
+    </section>
 
-        <!-- Header -->
-        <header class="s-header">
-            <div class="row s-header__inner">
-                <div class="s-header__block">
-                    <div class="s-header__logo">
-                        <a class="logo" href="index.html">
-                            H4S
-                        </a>
-                    </div>
-                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
-                </div>
-                <nav class="s-header__nav">
-                    <ul class="s-header__menu-links">
-                        <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
-                        <li><a class="smoothscroll" href="#about">About</a></li>
-                        <li><a class="smoothscroll" href="#projects">Projects</a></li>
-                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    <div class="layout">
+      <section class="content" aria-labelledby="projects-heading">
+        <h3 id="projects-heading" class="section-title">Featured Projects</h3>
 
-        <!-- Intro -->
-        <section id="intro" class="s-intro target-section">
-            <div class="row s-intro__content width-sixteen-col">
-                <div class="column lg-12 s-intro__content-inner grid-block grid-16">
-                    <div class="s-intro__content-text">
-                        <div class="s-intro__content-pretitle text-pretitle">Hello</div>
-                        <h1 class="s-intro__content-title">
-                            I'm Hasan Ajweh, <br>
-                            a Backend Developer <br>
-                            based in Palestine.
-                        </h1>
-                        <div class="s-intro__content-btns">
-                            <a class="smoothscroll btn" href="#about">More About Me</a>
-                            <a class="smoothscroll btn btn--stroke" href="#footer">Get In Touch</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <article class="project" aria-labelledby="project-1">
+          <h4 id="project-1" class="project-title">Multi-Tenant SaaS Platform for Schools</h4>
+          <p class="project-role">Role: Founder / Lead Developer</p>
+          <p class="project-desc">
+            A production-ready multi-tenant SaaS system for educational institutions that includes secure file uploading and archiving, role-based access control, notifications, calendar scheduling, and full data isolation per institution. I built, deployed, and operated the entire stack (backend, mobile apps, infrastructure).
+          </p>
+          <ul class="project-highlights">
+            <li>Multi-tenant architecture — tenant data isolation & RBAC</li>
+            <li>Laravel 12+ backend, Blade templating, REST APIs</li>
+            <li>Flutter mobile apps (Android & iOS)</li>
+            <li>Redis caching, queueing, and notification patterns</li>
+            <li>Production deployment and ops via Laravel Forge on VPS</li>
+          </ul>
+          <p class="stack"><strong>Stack:</strong> Laravel 12+, Blade, Flutter, Redis, Forge, VPS, Git</p>
+          <p class="project-link"><strong>Domain:</strong> <a href="https://enterprise.scholders.com" target="_blank" rel="noopener">enterprise.scholders.com</a></p>
+        </article>
 
-            <div class="s-intro__content-media">
-                <img src="https://i.ibb.co/sK0JnNw/me.jpg" alt="Hasan Ajweh">
-            </div>
+        <article class="project" aria-labelledby="project-2">
+          <h4 id="project-2" class="project-title">IPTV / Streaming Platform Operations</h4>
+          <p class="project-role">Role: System Administrator / Platform Operations Engineer</p>
+          <p class="project-desc">
+            Day-to-day operation and stability for a live IPTV/OTT platform: server management, live channels & VOD ingestion, user subscription management, access control, and technical support for real users.
+          </p>
+          <ul class="project-highlights">
+            <li>IPTV & OTT systems operations and uptime management</li>
+            <li>Transcoding & packaging pipelines (FFmpeg, HLS, RTMP)</li>
+            <li>CDN integration, monitoring, and incident response</li>
+            <li>User provisioning, subscriptions, and access control</li>
+            <li>Network, routing, and server administration for production services</li>
+          </ul>
+          <p class="stack"><strong>Highlights:</strong> IPTV systems, HLS/RTMP, FFmpeg, CDN integration, Linux</p>
+        </article>
 
-            <div class="s-intro__btn-download">
-                <a class="btn btn--stroke" href="hasanajwehcv (1).pdf" download>
-                    <i class="fa fa-download"></i> Get My CV
-                </a>
-            </div>
-        </section>
+        <article class="project" aria-labelledby="project-3">
+          <h4 id="project-3" class="project-title">Educational & Institutional Platforms</h4>
+          <p class="project-role">Role: Full-Stack Developer</p>
+          <p class="project-desc">
+            Delivered multiple educational platforms and portals with Laravel + Vue.js for institutional clients. Responsibilities included backend, frontend, deployment, and maintenance.
+          </p>
+          <ul class="project-highlights">
+            <li>edukvs.com</li>
+            <li>up.edukvs.com</li>
+            <li>jobs.edukvs.com</li>
+            <li>huffaz.edukvs.com</li>
+          </ul>
+          <p class="stack"><strong>Stack:</strong> Laravel, Vue.js, MySQL</p>
+        </article>
 
-        <!-- About -->
-        <section id="about" class="s-about target-section">
-            <div class="row s-about__content">
-                <div class="column xl-12">
-                    <div class="section-header" data-num="01">
-                        <h2 class="text-display-title">About Me.</h2>
-                    </div>
-                    <p class="attention-getter">
-                        I am a results-driven Backend Developer specializing in ASP.NET, Laravel, and Odoo with a proven track record in designing scalable, high-performance solutions. I'm adept at integrating multi-tier architectures and delivering custom backend platforms that enhance user satisfaction and operational efficiency.
-                    </p>
-                    <div class="grid-list-items s-about__blocks">
-                        <div class="grid-list-items__item s-about__block">
-                            <h4 class="s-about__block-title">Experience</h4>
-                            <ul class="s-about__list">
-                                <li>
-                                    Full Stack Developer at Kingdom Of Values – Ramallah
-                                    <span>Built company website, job and Huffaz form systems, and an HRMS for schools.</span>
-                                </li>
-                                <li>
-                                    .NET Backend Developer Intern at Palsoft Technologies
-                                    <span>Optimized backend services using ASP.NET, improving performance and API handling.</span>
-                                </li>
-                                <li>
-                                    ASP.NET Developer at The Hope International
-                                    <span>Built MVC web tools and improved testing and deployment efficiency.</span>
-                                </li>
-                                <li>
-                                    Freelance Odoo Specialist
-                                    <span>Delivered custom Odoo modules for CRM, sales, and helpdesk workflows.</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+        <h3 class="section-title">Experience</h3>
+        <ol class="timeline" aria-label="Experience timeline">
+          <li>
+            <div class="timeline-item">
+              <div class="timeline-head">
+                <span class="timeline-role">System Administrator / Platform Operations Engineer</span>
+                <time class="timeline-org">Astra for Telecom & IT Services — July 2025 – Present</time>
+              </div>
+              <p class="timeline-desc">Operation and uptime of production IPTV/OTT platform. Servers, ingestion, customer support and deployment.</p>
             </div>
-        </section>
+          </li>
 
-        <!-- Projects -->
-        <section id="projects" class="s-about target-section">
-            <div class="row s-about__content">
-                <div class="column xl-12">
-                    <div class="section-header" data-num="02">
-                        <h2 class="text-display-title">Projects.</h2>
-                    </div>
-                    <ul class="s-about__list">
-                        <li><a href="https://edukvs.com" target="_blank">Company Website – edukvs.com</a></li>
-                        <li><a href="https://jobs.edukvs.com" target="_blank">Jobs System – jobs.edukvs.com</a></li>
-                        <li><a href="https://huffaz.edukvs.com" target="_blank">Forms System – huffaz.edukvs.com</a></li>
-                    </ul>
-                </div>
+          <li>
+            <div class="timeline-item">
+              <div class="timeline-head">
+                <span class="timeline-role">Full-Stack Developer</span>
+                <time class="timeline-org">Kingdom Of Values — Jan 2025 – July 2025</time>
+              </div>
+              <p class="timeline-desc">Built production web apps and dashboards using Laravel & Vue.js.</p>
             </div>
-        </section>
+          </li>
 
-        <!-- Footer -->
-        <footer id="footer" class="s-footer target-section">
-            <div class="row">
-                <div class="column lg-12">
-                    <div class="section-header light-on-dark" data-num="03">
-                        <h2 class="text-display-title">Get In Touch.</h2>
-                    </div>
-                </div>
+          <li>
+            <div class="timeline-item">
+              <div class="timeline-head">
+                <span class="timeline-role">Backend Developer</span>
+                <time class="timeline-org">PalSoft Technology Solutions — May 2024 – Aug 2024</time>
+              </div>
+              <p class="timeline-desc">Backend services using ASP.NET; API and performance work.</p>
             </div>
-            <div class="row s-footer__content">
-                <div class="column xl-6 md-12 s-footer__block s-footer__about">
-                    <p class="attention-getter">
-                        Let's discuss your project or inquiry. Feel free to contact me anytime via email or phone.
-                    </p>
-                </div>
-                <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
-                    <div class="row">
-                        <div class="column xl-4 lg-5 md-6 tab-12">
-                            <h5>Social Profiles</h5>
-                            <ul class="link-list">
-                                <li><a href="https://www.linkedin.com/in/hasanajweh">LinkedIn</a></li>
-                                <li><a href="https://www.github.com/hasanajweh">GitHub</a></li>
-                            </ul>
-                        </div>
-                        <div class="column xl-6 md-6 tab-12">
-                            <h5>Contact Info</h5>
-                            <ul class="link-list">
-                                <li><a href="mailto:hassan.ajweh99@gmail.com">hassan.ajweh99@gmail.com</a></li>
-                                <li><a href="tel:0594303163">0594 303163</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+          </li>
+
+          <li>
+            <div class="timeline-item">
+              <div class="timeline-head">
+                <span class="timeline-role">QA Trainee (Remote)</span>
+                <time class="timeline-org">Gaza Sky Geeks — Feb 2024 – Apr 2024</time>
+              </div>
+              <p class="timeline-desc">Test planning, bug reporting, and agile collaboration.</p>
             </div>
+          </li>
+        </ol>
+
+        <h3 class="section-title">What I Bring</h3>
+        <ul class="differentiators">
+          <li>End-to-end ownership (code → deploy → operate)</li>
+          <li>SaaS + DevOps + Support hybrid profile</li>
+          <li>Production & real-user experience at scale</li>
+          <li>Strong written communication & documentation</li>
+          <li>Remote-ready and async-friendly working style</li>
+        </ul>
+      </section>
+
+      <aside class="aside" aria-labelledby="skills-heading">
+        <h4 id="skills-heading" class="section-title">Skills & Stack</h4>
+
+        <div class="skills-grid" role="list">
+          <div class="skill-card" role="listitem">
+            <div class="skill-title">Backend & Full Stack</div>
+            <div class="skill-items">Laravel 12+, PHP · ASP.NET, C# · REST APIs · Blade · Vue.js</div>
+          </div>
+
+          <div class="skill-card" role="listitem">
+            <div class="skill-title">Mobile</div>
+            <div class="skill-items">Flutter (Android / iOS)</div>
+          </div>
+
+          <div class="skill-card" role="listitem">
+            <div class="skill-title">DevOps & Infrastructure</div>
+            <div class="skill-items">Linux · VPS · Laravel Forge · Redis · Git & CI/CD</div>
+          </div>
+
+          <div class="skill-card" role="listitem">
+            <div class="skill-title">Streaming & Media</div>
+            <div class="skill-items">IPTV Systems · HLS / RTMP · FFmpeg · CDN integration</div>
+          </div>
+
+          <div class="skill-card" role="listitem">
+            <div class="skill-title">Databases</div>
+            <div class="skill-items">MySQL · PostgreSQL · MS SQL</div>
+          </div>
+        </div>
+
+        <h4 class="section-title" id="contact-heading">Contact</h4>
+        <p class="contact-info">
+          Email: <a href="mailto:hassan.ajweh99@gmail.com">hassan.ajweh99@gmail.com</a><br>
+          GitHub: <a href="https://github.com/hasanajweh" target="_blank" rel="noopener">github.com/hasanajweh</a><br>
+          LinkedIn: <a href="https://linkedin.com/in/hasanajweh" target="_blank" rel="noopener">linkedin.com/in/hasanajweh</a>
+        </p>
+
+        <form id="contactForm" class="contact-form" aria-describedby="contact-note">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@company.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Short message / availability" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p id="contact-note" class="contact-note">Open to remote, contract, and part-time opportunities. This form opens your email client if no server is configured.</p>
+        </form>
+
+        <footer class="site-footer">
+          <small>© <span id="year"></span> — Hasan Ajweh · Remote-ready</small>
         </footer>
-
+      </aside>
     </div>
+  </main>
 
-    <!-- JavaScript -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
 
+    document.getElementById('downloadCvBtn').addEventListener('click', function (e) {
+      e.preventDefault();
+      const pdfUrl = '/cv.pdf';
+      fetch(pdfUrl, { method: 'HEAD' }).then(res => {
+        if (res.ok) {
+          window.location.href = pdfUrl;
+        } else {
+          window.print();
+        }
+      }).catch(() => window.print());
+    });
+
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const name = encodeURIComponent(document.getElementById('name').value.trim());
+      const email = encodeURIComponent(document.getElementById('email').value.trim());
+      const message = encodeURIComponent(document.getElementById('message').value.trim());
+      const subject = encodeURIComponent('Website contact: ' + name);
+      const body = encodeURIComponent('Name: ' + name + '%0D%0AEmail: ' + email + '%0D%0A%0D%0A' + message);
+      const mailto = `mailto:hassan.ajweh99@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = mailto;
+    });
+  </script>
 </body>
 </html>
